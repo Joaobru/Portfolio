@@ -50,7 +50,9 @@ export const ContactList = () => {
 
 			<ItemStyled>
 				<ContainerIconStyled
-					href="https://api.whatsapp.com/send?phone=5511965691973&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20voc%C3%AA."
+					href={`https://api.whatsapp.com/send?phone=5511965691973&text=${t(
+						'home.contactList.messageSend'
+					)}`}
 					target="_blank"
 					rel="noreferrer"
 				>

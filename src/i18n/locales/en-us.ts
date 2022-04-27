@@ -26,6 +26,7 @@ export default {
 			},
 			contactList: {
 				resumeTitle: 'Resume',
+				messageSend: 'Hello, Can you help me?',
 			},
 			aboutMe: {
 				firstParagraph: `Currently I'm focused on skills as an enhanced Front End Developer, and some${' '}

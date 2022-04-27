@@ -26,6 +26,7 @@ export default {
 			},
 			contactList: {
 				resumeTitle: 'Currículo',
+				messageSend: 'Olá, você pode me ajudar?',
 			},
 			aboutMe: {
 				firstParagraph: `Atualmente eu estou focado em aprimorar minhas habilidades como
