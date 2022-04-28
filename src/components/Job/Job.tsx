@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 
 import { OcupationList } from '../../types/OcupationList';
 import {
@@ -18,11 +19,19 @@ import {
  * @name Ocupation
  *
  * @description
- * Responsável por renderizar a seção de Ocupation
+ * Responsável um Item da lista de Occupation
  */
 export const Job = ({ title, company, fromTo, description }: OcupationList) => {
+	const { t } = useTranslation();
 	const [open, setOpen] = useState(false);
 
+	/**
+	 * @function
+	 * @name onToggleDetails
+	 *
+	 * @description
+	 * Responsável por abrir e fechar o detalhe do item
+	 */
 	const onToggleDetails = () => {
 		setOpen(!open);
 	};
@@ -37,7 +46,9 @@ export const Job = ({ title, company, fromTo, description }: OcupationList) => {
 				<JobFromToStyled>{fromTo}</JobFromToStyled>
 
 				<DetailsButtonStyled type="button" onClick={onToggleDetails}>
-					{open ? 'Ver Menos' : 'Ver Mais'}
+					{open
+						? t('home.ocupation.hiddenDetailButton')
+						: t('home.ocupation.showDetailButton')}
 				</DetailsButtonStyled>
 
 				<DetailsStyled open={open}>

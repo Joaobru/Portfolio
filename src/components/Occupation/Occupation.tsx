@@ -15,7 +15,7 @@ import {
  * @name Ocupation
  *
  * @description
- * Responsável por renderizar a seção de Ocupation
+ * Responsável por renderizar a seção de Occupation
  */
 export const Occupation = () => {
 	const { t } = useTranslation();

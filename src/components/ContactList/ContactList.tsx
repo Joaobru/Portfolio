@@ -63,7 +63,7 @@ export const ContactList = () => {
 
 			<ItemStyled>
 				<ContainerIconStyled
-					href="/joao.pdf"
+					href={`/${t('home.contactList.cv')}`}
 					download="Joao-Paulo-Brune-CV.pdf"
 				>
 					<IconStyled src={curriculumIcon} alt="Currículo" />

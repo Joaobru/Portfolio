@@ -27,6 +27,7 @@ export default {
 			contactList: {
 				resumeTitle: 'Resume',
 				messageSend: 'Hello, Can you help me?',
+				cv: 'joaobru-en.pdf',
 			},
 			aboutMe: {
 				firstParagraph: `Currently I'm focused on skills as an enhanced Front End Developer, and some${' '}
@@ -37,12 +38,14 @@ export default {
 				                  Development at Etec de Embu.`,
 			},
 			ocupation: {
+				showDetailButton: 'View More',
+				hiddenDetailButton: 'View Less',
 				list: [
 					{
 						id: 1,
 						title: 'Front End Developer',
 						fromTo: 'may. 2021 – to moment',
-						company: 'D1 - Digital Journeys',
+						company: 'Zenvia',
 						description: [
 							{
 								id: 1,
@@ -190,7 +193,7 @@ export default {
 							},
 							{
 								id: 2,
-								name: 'Projects',
+								name: 'Project',
 								link: 'https://leatmeask-4458b.firebaseapp.com/',
 							},
 						],
@@ -211,7 +214,7 @@ export default {
 							},
 							{
 								id: 2,
-								name: 'Projects',
+								name: 'Project',
 								link: 'https://stupefied-turing-6a35f2.netlify.app/',
 							},
 						],

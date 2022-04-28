@@ -27,6 +27,7 @@ export default {
 			contactList: {
 				resumeTitle: 'Currículo',
 				messageSend: 'Olá, você pode me ajudar?',
+				cv: 'joaobru-pt.pdf',
 			},
 			aboutMe: {
 				firstParagraph: `Atualmente eu estou focado em aprimorar minhas habilidades como
@@ -37,12 +38,14 @@ export default {
 													formado em Técnico em Desenvolvimento de Sistemas pela Etec de Embu.`,
 			},
 			ocupation: {
+				showDetailButton: 'Ver Mais',
+				hiddenDetailButton: 'Ver Menos',
 				list: [
 					{
 						id: 1,
 						title: 'Desenvolvedor Front-End',
 						fromTo: 'mai. de 2021 – o momento',
-						company: 'D1 - Jornadas Digitais',
+						company: 'Zenvia',
 						description: [
 							{
 								id: 1,
@@ -190,7 +193,7 @@ export default {
 							},
 							{
 								id: 2,
-								name: 'Projetos',
+								name: 'Projeto',
 								link: 'https://leatmeask-4458b.firebaseapp.com/',
 							},
 						],
@@ -210,7 +213,7 @@ export default {
 							},
 							{
 								id: 2,
-								name: 'Projetos',
+								name: 'Projeto',
 								link: 'https://stupefied-turing-6a35f2.netlify.app/',
 							},
 						],
