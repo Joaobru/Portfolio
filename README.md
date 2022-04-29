@@ -10,7 +10,7 @@
 ## :computer: Aplicação
 
 <p align="center">
-    <img alt="Landing" title="Landing" src="src/assets/images/portfolio.png">
+  <img alt="Landing" title="Landing" src="src/assets/images/portfolio.png">
 </p>
 
 ## :wrench: Pré-requisitos
@@ -45,7 +45,7 @@ $ npm start ou yarn start
 
   * [i18n](https://www.i18next.com/) (Internacionalização);
 
-	* [Styled Components](https://styled-components.com/) (Estilização);
+  * [Styled Components](https://styled-components.com/) (Estilização);
 
 
 
