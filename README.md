@@ -1,54 +1,52 @@
-<p align="center"> 
-  Eu desenvolvi esse BoilerPlate com as configurações iniciais que eu faço em todo 
-  projeto React, por isso eu adicionei apenas o primordial para mim, não fiz a inclusão de tecnologias
-  muito específicas como para o gerenciamento de estado global da nossa aplicação, pois depende muito 
-  do projeto que será desenvolvido, UI Libs, Comunicação com a api porque aplicações mais simples não necessitam...
+<h1 align="center">
+    :rocket: Portfolio
+</h1>
+
+<p align="center">
+  Eu construí esse portfolio com objetivo de apresentar minhas habilidades, carreira, lista de contatos...
+	Além do Português também adotei o Inglês como alternativa do idioma.
 </p>
 
-## 🛠 Tecnologias
-  * [React](https://pt-br.reactjs.org/);
+## :computer: Aplicação
 
-  * [TypeScript](https://www.typescriptlang.org/);
-
-  * [Eslint](https://eslint.org/) com [Airbnb](https://github.com/airbnb/javascript);
-
-  * [Prettier](https://prettier.io/);
-
-  * [Husky](https://typicode.github.io/husky/);
-
-  * [CommitLintJs](https://commitlint.js.org/);
-
-  * [Styled Components](https://styled-components.com/);
-
-
-
+<p align="center">
+    <img alt="Landing" title="Landing" src="src/assets/images/portfolio.png">
+</p>
 
 ## :wrench: Pré-requisitos
 
  Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[Node.js](https://nodejs.org/en/) e um editor para trabalhar com o código como o [VSCode](https://code.visualstudio.com/).
+[Git](https://git-scm.com) e o [Node.js](https://nodejs.org/en/).
+Além disto é bom ter um editor para trabalhar com o código como o [VSCode](https://code.visualstudio.com/)
 
 ## :rocket: Para rodar a aplicação
 
 ```bash
 
 # Clone este repositório
-$ git clone https://github.com/Joaobru/BoilerPlate-React.git
+$ git clone https://github.com/Joaobru/Portfolio.git
 
 # Acesse a pasta do projeto no seu terminal/cmd
-$ cd BoilerPlate-React
+$ cd Portfolio
 
-# Execute o seguinte comando para instalar todas as dependências
+# Execute o comando para instalar todas as dependências
 $ npm install ou yarn
 
-# Rode o projeto com o seguinte comando.
-npm run start ou yarn start
+# Execute a aplicação em modo de desenvolvimento
+$ npm start ou yarn start
 
-# Agora você pode acessar em localhost:3000 e continuar o desenvolvimento do seu próprio projeto.
+# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
 
 ```
 
-<h2> :book: Licença </h2>
-<p>Lançado em 2022 :book:</p></br>
-<p>Feito por João Paulo Brune Dos Santos. Este projeto está sobre a licença do MIT</p></br>
-<p>Dar uma :star: se este projeto te ajudou!</p>
+## 🛠 Tecnologias
+
+  * [ReactJS](https://reactjs.org/) + [TypeScript](https://www.typescriptlang.org/) (Front-End);
+
+  * [i18n](https://www.i18next.com/) (Internacionalização);
+
+	* [Styled Components](https://styled-components.com/) (Estilização);
+
+
+
+
