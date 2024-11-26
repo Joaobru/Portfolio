@@ -4,6 +4,7 @@ import angularIcon from '../../../assets/icons/angular.svg';
 import vueIcon from '../../../assets/icons/vue.svg';
 import nodeIcon from '../../../assets/icons/nodejs.svg';
 import expressIcon from '../../../assets/icons/express.svg';
+import nestJsIcon from '../../../assets/icons/nestjs.svg';
 import dockerIcon from '../../../assets/icons/docker.svg';
 
 export const skills = {
@@ -54,13 +55,20 @@ export const skills = {
 		},
 		{
 			id: 7,
-			icon: expressIcon,
-			link: 'https://expressjs.com/pt-br/',
-			title: 'Express',
-			level: 'Basic',
+			icon: nestJsIcon,
+			link: 'https://nestjs.com/',
+			title: 'NestJs',
+			level: 'Intermediary',
 		},
 		{
 			id: 8,
+			icon: expressIcon,
+			link: 'https://expressjs.com/pt-br/',
+			title: 'Express',
+			level: 'Intermediary',
+		},
+		{
+			id: 9,
 			icon: dockerIcon,
 			link: 'https://www.docker.com/',
 			title: 'Docker',

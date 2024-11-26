@@ -5,27 +5,48 @@ export const ocupation = {
 		{
 			id: 1,
 			title: 'Front End Developer',
-			fromTo: 'may. 2021 – to moment',
-			company: 'Zenvia',
+			fromTo: 'dez. 2023 – to moment',
+			company: 'Arcotech',
 			description: [
 				{
 					id: 1,
-					text: `I work using the Scrum methodology in developing new features,
-					solving Bugs and testing a platform that has the objective of generating
-					document design and implementation of digital journeys and chatbots`,
+					text: `We use the Shape Up methodology for sprint planning. In most projects, we follow the
+					Trunk-Based Development workflow; however, there are some exceptions where we adopt GitFlow.
+					Additionally, I work with various monitoring tools, such as ArgoCD, Analytics, Grafana, and New
+					Relic.`,
 				},
 				{
 					id: 2,
-					text: `During the day I use: NextJS + TypeScript + Redux Saga + Context API + Styled Components,
-					for testing we use Cypress(e2e), Jest(unitary), we also implement jsDocs to comment the purpose of functions,
-					we apply conventional commits to keep the commits succinct, I also take care of some libs,
-					From components, tokens, icons... I also from Hotjar/Google Analytics along with the rest of the
-					front`,
+					text: `In my daily work, I use React with TypeScript and Zustand for state management
+					in applications. We also work with micro front-ends using module federation. For unit testing,
+					we use Jest, and for the backend for frontend (BFF), we use NestJS. Our applications are hosted on
+					AWS, with CloudFront as the CDN and Kubernetes for managing Docker containers.`,
 				},
 			],
 		},
 		{
 			id: 2,
+			title: 'Front End Developer',
+			fromTo: 'may. 2021 – dez. 2023 - 2 years and 8 months',
+			company: 'Zenvia',
+			description: [
+				{
+					id: 1,
+					text: `I worked using the Scrum methodology in developing new features,
+					solving Bugs and testing a platform that has the objective of generating
+					document design and implementation of digital journeys and chatbots`,
+				},
+				{
+					id: 2,
+					text: `During the day I used to use: NextJS + TypeScript + Redux Saga + Context API + Styled Components,
+					for testing we used Cypress(e2e), Jest(unitary), we also implemented jsDocs to comment the purpose of functions,
+					we applied conventional commits to keep the commits succinct, I also took care of some libs,
+					From components, tokens, icons... We've used Hotjar and Google Analytics monitoring the projects`,
+				},
+			],
+		},
+		{
+			id: 3,
 			title: 'Front End Developer',
 			fromTo: 'feb. 2021 – aug. 2021 - 7 months',
 			company: 'NovaHaus',
@@ -48,7 +69,7 @@ export const ocupation = {
 			],
 		},
 		{
-			id: 3,
+			id: 4,
 			title: 'Full Stack Developer',
 			fromTo: 'sep 2020 - jan 2021 - 5 months',
 			company: 'NWB - Network Brazil',
