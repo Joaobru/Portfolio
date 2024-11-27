@@ -39,7 +39,7 @@ export const ContactList = () => {
 
 			<ItemStyled>
 				<ContainerIconStyled
-					href="https://www.linkedin.com/in/joao-paulo-brune-b51b0b186/"
+					href="https://www.linkedin.com/in/joao-paulo-brune"
 					target="_blank"
 					rel="noreferrer"
 				>
